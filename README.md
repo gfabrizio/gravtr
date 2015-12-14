@@ -3,11 +3,12 @@
 ----
 # Gravtr
 A simple package to generate a gravatar url
-
+---
 ## Installation:
 ```
 $ pip install gravtr
 ```
+---
 ## Usage:
 ```
 >>> from gravtr import Gravtr
@@ -15,4 +16,10 @@ $ pip install gravtr
 >>> gravtr.generate()
 'http://www.gravatar.com/avatar/1c0d59fd98fb89ba3a4f3ea950d31e1e'
 ```
+- You could specify the size of the returned image (by default is 80px):
+```
+>>> gravtr.generate(size=2048)
+'http://www.gravatar.com/avatar/1c0d59fd98fb89ba3a4f3ea950d31e1e?s=2048'
+```
+
 Enjoy! :)
