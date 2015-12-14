@@ -12,4 +12,4 @@ python:
 install:
   - python setup.py install
 # command to run tests
-  - python tests.py
+script: python tests.py
