@@ -1,3 +1,4 @@
+|Landscape|
 # Gravtr
 A simple package to generate a gravatar url
 
