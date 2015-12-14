@@ -1,4 +1,6 @@
-[![Code Health](https://landscape.io/github/gfabricio/gravtr/master/landscape.svg?style=flat)](https://landscape.io/github/gfabricio/gravtr/master) | [![Build Status](https://travis-ci.org/gfabricio/gravtr.svg)](https://travis-ci.org/gfabricio/gravtr)
+[![Code Health](https://landscape.io/github/gfabricio/gravtr/master/landscape.svg?style=flat)](https://landscape.io/github/gfabricio/gravtr/master) | [![Build Status](https://travis-ci.org/gfabricio/gravtr.svg)](https://travis-ci.org/gfabricio/gravtr) | [![Codacy Badge](https://api.codacy.com/project/badge/grade/a45c40b0e1a945319012ef3382f63eae)](https://www.codacy.com/app/gfabricio/gravtr)
+
+----
 # Gravtr
 A simple package to generate a gravatar url
 
