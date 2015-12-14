@@ -1,3 +1,4 @@
+[![Code Health](https://landscape.io/github/gfabricio/gravtr/master/landscape.svg?style=flat)](https://landscape.io/github/gfabricio/gravtr/master)
 # Gravtr
 A simple package to generate a gravatar url
 
