@@ -29,7 +29,7 @@ setup(
         'License :: OSI Approved :: MIT License',
 
         # Supported Python versions.
-        'Programming Language :: Python :: 2.7, 3.4',
+        'Programming Language :: Python :: 2.7',
     ],
     keywords='gravatar avatar gravtr',
     packages=['gravtr'],
