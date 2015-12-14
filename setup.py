@@ -2,10 +2,9 @@ from setuptools import setup
 
 setup(
     name="gravtr",
-    version=gravtr.__version__,
+    version="0.0.1",
 
     description="Simple gravatar url generator",
-    long_description=long_description,
 
     # The project URL.
     url='https://github.com/gfabricio/gravtr',
