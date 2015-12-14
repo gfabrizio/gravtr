@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="gravtr",
-    version="0.0.1",
+    version="0.0.2",
 
     description="Simple gravatar url generator",
 
@@ -16,6 +16,8 @@ setup(
     # Choose your license
     license='MIT',
 
+    use_2to3=True
+
     classifiers=[
         'Development Status :: 3 - Alpha',
 
@@ -28,8 +30,6 @@ setup(
 
         'License :: OSI Approved :: MIT License',
 
-        # Supported Python versions.
-        'Programming Language :: Python :: 2.7',
     ],
     keywords='gravatar avatar gravtr',
     packages=['gravtr'],
