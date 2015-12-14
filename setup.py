@@ -16,7 +16,7 @@ setup(
     # Choose your license
     license='MIT',
 
-    use_2to3=True
+    use_2to3=True,
 
     classifiers=[
         'Development Status :: 3 - Alpha',
