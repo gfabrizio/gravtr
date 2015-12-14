@@ -1,4 +1,4 @@
-[![Code Health](https://landscape.io/github/gfabricio/gravtr/master/landscape.svg?style=flat)](https://landscape.io/github/gfabricio/gravtr/master) | https://travis-ci.org/gfabricio/gravtr.svg?branch=master
+[![Code Health](https://landscape.io/github/gfabricio/gravtr/master/landscape.svg?style=flat)](https://landscape.io/github/gfabricio/gravtr/master) | [![Build Status](https://travis-ci.org/gfabricio/gravtr.svg)](https://travis-ci.org/gfabricio/gravtr)
 # Gravtr
 A simple package to generate a gravatar url
 
