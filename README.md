@@ -23,3 +23,7 @@ $ pip install gravtr
 ```
 
 Enjoy! :)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gfabricio/gravtr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
