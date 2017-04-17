@@ -1,14 +1,31 @@
 import hashlib
-
-GRAVATAR_URL = 'http://www.gravatar.com/avatar/'
+import urllib
 
 class Gravtr(object):
-    def __init__(self, email):
-        self.email = email
+    GRAVATAR_URL = 'https://www.gravatar.com/avatar/'
+    GRAVATAR_URL_UNSECURE = 'http://www.gravatar.com/avatar/'
 
-    def generate(self, size=None):
-        email = self.email.encode('utf-8')
-        self.url = GRAVATAR_URL + hashlib.md5(email).hexdigest()
+    class ratingType():
+        G = 'g'
+        PG = 'pg'
+        R = 'r'
+        X = 'x'
+
+    def __init__(self, email):
+        self.email = email.encode('utf-8')
+
+    def generate(self, unsecure=False, size=None, typed=False, default=None, force_default=False, rating_type=None):
+        gravatar_url = self.GRAVATAR_URL if not unsecure else self.GRAVATAR_URL_UNSECURE
+        self.url = gravatar_url + hashlib.md5(self.email).hexdigest()
+        params = dict()
         if size:
-            self.url = self.url + '?' + 's={}'.format(str(size))
-        return self.url
+            params['s'] = str(size)
+        if typed:
+            self.url = self.url + '.jpg'
+        if default:
+            params['d'] = str(default)
+        if force_default:
+            params['f'] = 'y'
+        if rating_type:
+            params['r'] = str(rating_type)
+        return self.url + '?' + urllib.urlencode(params)
