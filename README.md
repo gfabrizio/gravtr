@@ -45,7 +45,7 @@ $ pip install gravtr
 More information about them here: https://fr.gravatar.com/site/implement/images#rating
 ```
 >>> gravtr.generate(rating_type=Gravtr.ratingType.PG)
-'https://www.gravatar.com/avatar/1c0d59fd98fb89ba3a4f3ea950d31e1e?r=PG'
+'https://www.gravatar.com/avatar/1c0d59fd98fb89ba3a4f3ea950d31e1e?r=pg'
 ```
 
 
