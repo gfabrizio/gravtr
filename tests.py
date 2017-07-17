@@ -35,7 +35,7 @@ class GravtrTestCase(unittest.TestCase):
 
     def test_generate_url_with_rating_type_should_succeed(self):
         gravtr = Gravtr(email=self.email).generate(typed=True, rating_type=Gravtr.ratingType.X)
-        assert re.search(ur"(\?|\&)r\=X", gravtr)
+        assert re.search(ur"(\?|\&)r\=x", gravtr)
 
 if __name__ == '__main__':
     unittest.main()
