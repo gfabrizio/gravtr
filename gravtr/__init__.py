@@ -9,7 +9,7 @@ class Gravtr(object):
     GRAVATAR_URL = 'https://www.gravatar.com/avatar/'
     GRAVATAR_URL_UNSECURE = 'http://www.gravatar.com/avatar/'
 
-    class ratingType():
+    class ratingType(object):
         G = 'g'
         PG = 'pg'
         R = 'r'
