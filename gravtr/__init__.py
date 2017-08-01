@@ -1,9 +1,9 @@
 import hashlib
 import sys
 if sys.version_info[0] < 3:
-  import urllib
+    import urllib
 else:
-  import urllib.parse as urllib
+    import urllib.parse as urllib
 
 class Gravtr(object):
     GRAVATAR_URL = 'https://www.gravatar.com/avatar/'
