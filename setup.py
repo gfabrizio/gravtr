@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="gravtr",
-    version="0.0.3",
+    version="0.0.4",
 
     description="Simple gravatar url generator",
 
