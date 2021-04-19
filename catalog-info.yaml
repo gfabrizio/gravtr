@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gravtr
+  annotations:
+    github.com/project-slug: gfabricio/gravtr
+spec:
+  type: other
+  lifecycle: unknown
+  owner: backstage
